@@ -3,7 +3,7 @@ body {
 }
 
 .navegacion {
-    width: 1000px;
+    width: 8000px;
     margin: 30px auto;
     background: #fff;
 }
@@ -88,6 +88,7 @@ footer {
 
 h1 {
     text-align: center;
+    font-size: 40px;
 }
 
 h2 {
