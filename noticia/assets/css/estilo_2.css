@@ -87,7 +87,7 @@ footer {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
 }
 
@@ -98,5 +98,5 @@ h2 {
 
 
 p {
-    text-align: center;
+    text-align: left;
 }
