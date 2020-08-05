@@ -2,6 +2,57 @@ body {
     background-color: beige;
 }
 
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+
+}
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    color: blue;
+    transition: all .3s;
+
+}
+.submenu{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+   visibility: visible;
+   opacity: 1;
+
+}
+
+
+
 .clear {
     clear: both;
 }
