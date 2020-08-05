@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+}
+
+.clear {
+    clear: both;
+}
+
+article {
+    background-color: rgb(255, 251, 0);
+    width: 50%;
+    float: left;
+    padding: 25px;
+
+}
+
+aside {
+    background-color: orchid;
+    width: 40%;
+    float: right;
+    padding: 25px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 150px;
+    padding: 20px;
+}
+
+
+
+
+.bajada {
+    color: red;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+
+p {
+    text-align: center;
+}
