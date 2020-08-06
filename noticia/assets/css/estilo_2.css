@@ -94,9 +94,14 @@ h1 {
 h2 {
     font-size: 25px;
 }
-
+br {
+    align-content: center;
+}
 
 
 p {
     text-align: left;
+}
+.img1 {
+    align-content: right;
 }
